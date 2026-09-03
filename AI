@@ -1,0 +1,16 @@
+likes(kunal,action).
+likes(yash,crime).
+likes(rohit,romantic).
+likes(shryash,comedy).
+likes(shahid,adventure).
+
+movies(salar,action).
+movies(drishym,crime).
+movies(isqe,romantic).
+movies(welcome,comedy).
+movies(aadipurush,adventure).
+
+recomandation(User,Movie):-
+
+likes(User,Categeory),
+movies(Movies,Categeory).
